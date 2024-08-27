@@ -1,43 +1,42 @@
+# Dolphin-UltraCopier 0.1
 
-Dolphin-UltraCopier 0.1
----------------------
-Release: 28 Aug 2024
+**Release**: 28 Aug 2024  
+**Author**: [ernzo](https://github.com/ernzo)  
+**Repository**: [Dolphin-UltraCopier](https://github.com/ernzo/Dolphin-UltraCopier)
 
-Author: [ernzo] (https://github.com/ernzo)
-(https://github.com/ernzo/Dolphin-UltraCopier)
-
-This script is an Action for Dolphin that uses CopyQ to Paste the clipboard content with Ultracopier.
+This script is an Action for Dolphin that uses [CopyQ](https://hluk.github.io/CopyQ/) to Paste the clipboard content with [Ultracopier](https://github.com/alphaonex86/Ultracopier).
 
 It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultracopier.
 
 
-Installation:
-=============
-1.- Copy "ultrapaste.desktop" to /home/USER/.local/share/kservices5/ServiceMenus/
-and /usr/share/kservices5/ServiceMenus/ for a system-wide application.
+1. **Copy the Script:**
+   - Copy `dolphin.ultracopier.py` to `/home/USER/scripts/`
 
-2.- Copy "dolphin.ultracopier.py" to /home/USER/scripts/
+2. **Copy the Desktop Entry:**
+   - Copy `ultrapaste.desktop` to `/home/USER/.local/share/kservices5/ServiceMenus/`
+   - Alternatively, copy it to `/usr/share/kservices5/ServiceMenus/` for a system-wide application.
 
-3.- Grant Permissions:
-sudo chmod 644 /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
-chmod 644 /home/USER/.local/share/kservices5/ServiceMenus/ultrapaste.desktop
+3. **Set Permissions:**
+   ```bash
+	chmod +x /home/USER/scripts/dolphin_ultracopier.py
 
-sudo chown root:root /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
-chown USER:USER /home/USER/.local/share/kservices5/ServiceMenus/ultrapaste.desktop
+	chmod 644 /home/USER/.local/share/kservices5/ServiceMenus/ultrapaste.desktop   
+	sudo chmod 644 /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
+   
+	chown USER:USER /home/USER/.local/share/kservices5/ServiceMenus/ultrapaste.desktop
+	sudo chown root:root /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
 
-chmod +x /home/USER/scripts/dolphin.ultracopier.py
-
-4.- Reset Dolphin file manager,
-the "Paste with UltraCopier" option should appear on the Right Click Context/Dropdown Menu.
-
+4. **Restart Dolphin:**
+   - Restart Dolphin file manager, the "Paste with Ultracopier" option should appear on the Right Click Context/Dropdown Menu.
+ 
 Voila?
-
-
+ 
+ 
 PS: If anyone manages to Bind it to a Keyboard Shortcut,
 be it via Dolphin Shortcuts, or KWin Global Shortcuts.. be my guest.
-
-
-
+ 
+ 
+ 
 Change log
 -----------
 0.1 - First release
