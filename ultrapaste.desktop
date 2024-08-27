@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;application/x-iso9660-image;application/x-ext4-image;application/x-raw-disk-image
+Actions=paste_with_ultracopier;
+X-KDE-StartupNotify=false
+X-KDE-Priority=TopLevel
+X-DBus-StartupType=Multi
+
+[Desktop Action paste_with_ultracopier]
+Name=Paste with Ultracopier
+Exec=python3 /home/ernzo/scripts/dolphin_ultracopier.py "%U"
+Icon=edit-paste
