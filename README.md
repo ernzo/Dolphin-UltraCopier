@@ -4,7 +4,7 @@
 **Author**: [ernzo](https://github.com/ernzo)  
 **Repository**: [Dolphin-UltraCopier](https://github.com/ernzo/Dolphin-UltraCopier)
 
-This script is an Action for Dolphin that uses [CopyQ](https://hluk.github.io/CopyQ/) to Paste the clipboard content with [Ultracopier](https://github.com/alphaonex86/Ultracopier).
+This script is an Action for [Dolphin](https://github.com/KDE/dolphin) that uses [CopyQ](https://hluk.github.io/CopyQ/) to Paste the clipboard content with [Ultracopier](https://github.com/alphaonex86/Ultracopier).
 
 It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultracopier.
 
