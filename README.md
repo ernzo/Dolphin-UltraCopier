@@ -10,7 +10,7 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 
 
 1. **Copy the Script:**
-   - Copy `dolphin.ultracopier.py` to `/home/USER/scripts/`
+   - Copy `dolphin_ultracopier.py` to `/home/USER/scripts/`
 
 2. **Copy the Desktop Entry:**
    - Copy `ultrapaste.desktop` to `/home/USER/.local/share/kservices5/ServiceMenus/`
