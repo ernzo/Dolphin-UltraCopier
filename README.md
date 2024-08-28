@@ -10,7 +10,7 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 
 
 1. **Copy the Script:**
-   - Copy `dolphin_ultracopier.py` to `/home/USER/scripts/`
+   - Copy `dolphin_ultracopier.py` to `/home/USER//.local/share/Ultracopier/dolphin_ultracopier.py`
 
 2. **Copy the Desktop Entry:**
    - Copy `ultrapaste.desktop` to `/home/USER/.local/share/kservices5/ServiceMenus/`
@@ -18,7 +18,7 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 
 3. **Set Permissions:**
    ```bash
-	chmod +x /home/USER/scripts/dolphin_ultracopier.py
+	chmod +x /home/USER/.local/share/Ultracopier/dolphin_ultracopier.py
 
 	chmod 644 /home/USER/.local/share/kservices5/ServiceMenus/ultrapaste.desktop   
 	sudo chmod 644 /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
