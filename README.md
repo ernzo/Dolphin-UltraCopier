@@ -10,15 +10,16 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 
 
 1. **Copy the Script:**
-   - Copy `dolphin_ultracopier.py` to `/home/USER/scripts/`
+   - Copy `dolphin_ultracopier.py` to `/home/USER/.local/share/Ultracopier/dolphin_ultracopier.py`
 
 2. **Copy the Desktop Entry:**
    - Copy `ultrapaste.desktop` to `/home/USER/.local/share/kservices5/ServiceMenus/`
+   - **EDIT the ultrapaste.desktop to fix the Exec where is dolphin_ultracopier.py**
    - Alternatively, copy it to `/usr/share/kservices5/ServiceMenus/` for a system-wide application.
 
 3. **Set Permissions:**
    ```bash
-	chmod +x /home/USER/scripts/dolphin_ultracopier.py
+	chmod +x /home/USER/.local/share/Ultracopier/dolphin_ultracopier.py
 
 	chmod 644 /home/USER/.local/share/kservices5/ServiceMenus/ultrapaste.desktop   
 	sudo chmod 644 /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
@@ -29,6 +30,9 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 4. **Restart Dolphin:**
    - Restart Dolphin file manager, the "Paste with Ultracopier" option should appear on the Right Click Context/Dropdown Menu.
  
+TODO
+Do it work with ctrl c, ctrl v
+
 Voila?
  
  
