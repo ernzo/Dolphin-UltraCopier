@@ -8,7 +8,6 @@ This script is an Action for [Dolphin](https://github.com/KDE/dolphin) that uses
 
 It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultracopier.
 
-
 1. **Copy the Script:**
    - Copy `dolphin_ultracopier.py` to `/home/USER/scripts/`
 
@@ -28,10 +27,13 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 
 4. **Restart Dolphin:**
    - Restart Dolphin file manager, the "Paste with Ultracopier" option should appear on the Right Click Context/Dropdown Menu.
- 
+
+<p align="center">
+  <img src="https://i.imgur.com/jW9ffv0.png" alt="Dolphin Ultracopier">
+</p>
+
 Voila?
- 
- 
+
 PS: If anyone manages to Bind it to a Keyboard Shortcut,
 be it via Dolphin Shortcuts, or KWin Global Shortcuts.. be my guest.
  
