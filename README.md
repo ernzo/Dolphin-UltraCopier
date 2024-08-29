@@ -8,10 +8,10 @@ This script is an Action for [Dolphin](https://github.com/KDE/dolphin) that uses
 
 It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultracopier.
 
-1. **Copy the Script:**
+1. **Copy Script:**
    - Copy `dolphin_ultracopier.py` to `/home/USER/scripts/`
 
-2. **Copy the Desktop Entry:**
+2. **Copy Desktop Entry:**
    - Copy `ultrapaste.desktop` to `/home/USER/.local/share/kservices5/ServiceMenus/`
    - Alternatively, copy it to `/usr/share/kservices5/ServiceMenus/` for a system-wide application.
 
