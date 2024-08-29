@@ -8,7 +8,7 @@ This script is an Action for [Dolphin](https://github.com/KDE/dolphin) that uses
 
 It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultracopier.
 
-1. **Copy Script:**
+1. **Copy the Script:**
    - Copy `dolphin_ultracopier.py` to `/home/USER/scripts/`
 
 2. **Copy Desktop Entry:**
