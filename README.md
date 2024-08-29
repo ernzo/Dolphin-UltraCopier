@@ -26,7 +26,7 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
 	sudo chown root:root /usr/share/kservices5/ServiceMenus/ultrapaste.desktop
 
 4. **Modify Path**
-   - Edit `ultrapaste.desktop` and change USER name in the Path line `Exec=python3 /home/USER/scripts/dolphin_ultracopier.py "%U"`
+   - Edit `ultrapaste.desktop` and change USER name in the Path line: `Exec=python3 /home/USER/scripts/dolphin_ultracopier.py "%U"`
 
 5. **Restart Dolphin:**
    - Restart Dolphin file manager, the "Paste with Ultracopier" option should appear on the Right Click Context/Dropdown Menu.
