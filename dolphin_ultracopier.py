@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Dolphin-UltraCopy 0.1
+# Dolphin-UltraCopy 0.2
 # Release: 28 Aug 2024
 #
 # Author: ernzo (https://github.com/ernzo)
