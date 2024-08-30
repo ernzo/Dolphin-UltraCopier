@@ -9,5 +9,5 @@ X-DBus-StartupType=Multi
 
 [Desktop Action paste_with_ultracopier]
 Name=Paste with Ultracopier
-Exec=python3 /home/USER/scripts/dolphin_ultracopier.py "%U"
+Exec=python3 ~/scripts/dolphin_ultracopier.py "%U"
 Icon=edit-paste
