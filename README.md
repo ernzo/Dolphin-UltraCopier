@@ -1,4 +1,4 @@
-# Dolphin-UltraCopier 0.2
+# Dolphin-UltraCopier 0.3
 
 **Release**: 28 Aug 2024  
 **Author**: [ernzo](https://github.com/ernzo)  
