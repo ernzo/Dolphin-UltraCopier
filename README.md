@@ -4,9 +4,9 @@
 **Author**: [ernzo](https://github.com/ernzo)  
 **Repository**: [Dolphin-UltraCopier](https://github.com/ernzo/Dolphin-UltraCopier)
 
-This script is an Action for [Dolphin](https://github.com/KDE/dolphin) that uses [CopyQ](https://hluk.github.io/CopyQ/) to Paste the clipboard content with [Ultracopier](https://github.com/alphaonex86/Ultracopier).
+Action script for [Dolphin](https://github.com/KDE/dolphin) that uses [CopyQ](https://hluk.github.io/CopyQ/) to Paste the clipboard content via [Ultracopier](https://github.com/alphaonex86/Ultracopier).
 
-It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultracopier.
+Works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultracopier.
 
 1. **Copy the Script:**
    - Copy `dolphin_ultracopier.py` to `/home/USER/scripts/`
@@ -32,7 +32,7 @@ It works perfecly in Debian (trixie) Plasma/Wayland + latest stock CopyQ & Ultra
    - Restart Dolphin file manager, the "Paste with Ultracopier" option should appear on the Right Click Context/Dropdown Menu.
 
 <p align="center">
-  <img src="https://i.imgur.com/jW9ffv0.png" alt="Dolphin Ultracopier">
+  <img src="https://i.imgur.com/feZQtFD.png" alt="Dolphin Ultracopier">
 </p>
 
 Voila?
