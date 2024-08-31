@@ -77,7 +77,7 @@ def main():
         print(f"Executing command: {command}")
 
         try:
-            # Run the command and capture both stdout and stderr
+            # Run command and capture stdout and stderr
             result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
             print(f"UltraCopier command output:\n{result.stdout}")
             if result.returncode == 0:
