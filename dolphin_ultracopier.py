@@ -36,7 +36,7 @@ def get_clipboard_data():
                 print(f"Clipboard Data Retrieved: {data}")
                 return data
             else:
-                print("Clipboard is empty.")
+                print("Clipboard empty.")
                 return None
         else:
             print(f"Error running CopyQ command: {result.stderr.strip()}")
@@ -46,17 +46,17 @@ def get_clipboard_data():
         return None
 
 def uri_to_path(uri):
-    """Convert a file URI to a local file path."""
+    """Convert file URI to local file path."""
     if uri.startswith('file://'):
         return urllib.parse.unquote(uri[7:])
     return uri
 
 def format_sources(sources):
-    """Format the list of source paths for the command."""
+    """Format list of source paths."""
     return ' '.join(f'"{source}"' for source in sources)
 
 def main():
-    """Main function to execute the copy operation."""
+    """Execute copy operation."""
     if len(sys.argv) != 2:
         print("Usage: paste-clipboard-ultracopier.py <destination_directory>")
         sys.exit(1)
