@@ -5,7 +5,7 @@
 # Author: ernzo (https://github.com/ernzo)
 # Repository: https://github.com/ernzo/Dolphin-UltraCopy
 #
-# This script is an Action for Dolphin that uses CopyQ to Paste the clipboard content with Ultracopier.
+# Action script for Dolphin that uses CopyQ to Paste the clipboard content via Ultracopier.
 #
 # All details and Installation instructions in the README.MD file.
 #
