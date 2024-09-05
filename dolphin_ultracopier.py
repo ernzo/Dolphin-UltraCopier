@@ -9,6 +9,8 @@
 #
 # All details and Installation instructions in the README.MD file.
 #
+# Licensed under GPL3
+#
 import subprocess
 import sys
 import urllib.parse
@@ -19,7 +21,7 @@ def start_copyq():
     try:
         result = subprocess.run(['pgrep', 'copyq'], capture_output=True, text=True)
         if result.returncode == 0:
-            print("CopyQ is already running.")
+            print("CopyQ already running.")
         else:
             subprocess.Popen(['copyq'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             print("CopyQ started.")
@@ -36,7 +38,7 @@ def get_clipboard_data():
                 print(f"Clipboard Data Retrieved: {data}")
                 return data
             else:
-                print("Clipboard empty.")
+                print("Clipboard Empty.")
                 return None
         else:
             print(f"Error running CopyQ command: {result.stderr.strip()}")
@@ -52,11 +54,11 @@ def uri_to_path(uri):
     return uri
 
 def format_sources(sources):
-    """Format list of source paths."""
+    """Format list of Paths, ensure proper escaping."""
     return ' '.join(f'"{source}"' for source in sources)
 
 def main():
-    """Execute copy operation."""
+    """Execute Copy operation."""
     if len(sys.argv) != 2:
         print("Usage: paste-clipboard-ultracopier.py <destination_directory>")
         sys.exit(1)
@@ -73,6 +75,7 @@ def main():
         sources = [uri_to_path(source) for source in clipboard_data.split('\n') if source.strip()]
         sources_formatted = format_sources(sources)
 
+        # Quote the whole command string, handle potential issues
         command = f'/usr/bin/ultracopier cp {sources_formatted} "{destination}"'
         print(f"Executing command: {command}")
 
