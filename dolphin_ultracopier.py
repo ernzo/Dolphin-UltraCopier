@@ -75,7 +75,7 @@ def main():
         sources = [uri_to_path(source) for source in clipboard_data.split('\n') if source.strip()]
         sources_formatted = format_sources(sources)
 
-        # Quote the whole command string, handle potential issues
+        # Quote command string, handle potential issues
         command = f'/usr/bin/ultracopier cp {sources_formatted} "{destination}"'
         print(f"Executing command: {command}")
 
