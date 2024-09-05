@@ -44,4 +44,4 @@ Change log
 	0.1 - First release
 	0.2 - Fixed USER path in `ultrapaste.desktop`; Updated `README.MD`
 	0.3 - Updated `ultrapaste.desktop` to run from any user path; Updated README.MD
- 	0.5 - Updated EXEC to better handle special paths.
+ 	0.5 - Updated script to better handle special paths.
